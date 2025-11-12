@@ -7,9 +7,10 @@ public class User {
     private LocalDate birthDay;
     private ArrayList<Book> books = new ArrayList<Book>();
 
-    User (String name, String birthday){
+    User (String name, String birthday, Book books){
         this.name = name;
         this.birthDay = LocalDate.parse(birthday);
+        borrow(books);
     }
 
     public String getName(){
@@ -23,6 +24,7 @@ public class User {
     public String borrowedBooks(){
         return this.books.toString();
     }
+
 
     public void borrow(Book book) {
         this.books.add(book);

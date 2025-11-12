@@ -1,13 +1,12 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class Main {
     public static void main(String[] args) {
-        Book book = new Book("Purple Hibiscus", "Chimamanda Adichie", 270);
-        AudioBook audioBook  = new AudioBook("Naked in death", "J.D. Robb", 30_000);
-        Ebook test = new Ebook("Grace of Allah", "Prophet Muhammad", 663, "pdf");
+//        MenuItem menu = new MenuItem("Latte", 12);
 
-        System.out.println(test.toString());
-
+//        System.out.println(menu.getMenu());
     }
 }
