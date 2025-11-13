@@ -1,3 +1,5 @@
+package menu;
+
 public class Drink extends MenuItem {
     private boolean isCold;
 

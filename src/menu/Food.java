@@ -1,4 +1,6 @@
-public class Food extends MenuItem{
+package menu;
+
+public class Food extends MenuItem {
     private boolean isVegetarian;
 
     public Food(String name, double price, boolean isVegetarian) {

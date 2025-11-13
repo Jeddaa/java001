@@ -1,3 +1,5 @@
+package borrowBook;
+
 public class Ebook extends Book{
     private String format;
 
@@ -5,8 +7,4 @@ public class Ebook extends Book{
         super(title, author, pageCount);
         this.format = format;
     }
-
-//    public String toString(){
-//        return String.format("%s by %s with page number %d", this.title, this.author, this.pageCount);
-//    }
 }
